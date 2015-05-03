@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+   <Button
+       android:id="@+id/edibu"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="43dp" />
+
+   <LinearLayout
+       android:id="@+id/layoutff"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="86dp"
+       android:layout_weight="1"
+       android:gravity="center"
+       android:orientation="vertical" >
+
+       <EditText
+           android:id="@+id/ediname"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="0.2" >
+
+           <requestFocus />
+       </EditText>
+
+       <EditText
+           android:id="@+id/ediprice"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="0.2" />
+
+       <EditText
+           android:id="@+id/edilow"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="0.2" />
+
+       <EditText
+           android:id="@+id/editime"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="0.2" />
+
+       <EditText
+           android:id="@+id/edinote"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="0.2" />
+   </LinearLayout>
+
+   <Button
+       android:id="@+id/qu"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBaseline="@+id/edibu"
+       android:layout_alignBottom="@+id/edibu"
+       android:layout_alignParentRight="true"
+       android:layout_marginRight="18dp"
+       android:text="Button" />
+        
+</RelativeLayout>
